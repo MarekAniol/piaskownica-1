@@ -22,9 +22,9 @@ print("Najdłuższa nazwa domeny:",max(najkrotsza_najdluzsza[:-1]), "znaków.")
 
 
 
-'''
-@Banxter
-'''
+
+# Banxter
+
 
 
 
