@@ -26,38 +26,3 @@ print("Najdłuższa nazwa domeny:",max(najkrotsza_najdluzsza), "znaków.")
 
 
 # Banxter
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Czarny ###
-# from lista_flag import stworz_liste_flag
-
-
-# def get_min_max(lista_flag):
-#     dlugosci = [len(f) for f in lista_flag]
-#     najkrotsza = min(dlugosci)
-#     najdluzsza = max(dlugosci)
-#     return najkrotsza, najdluzsza
-
-
-# url = 'https://zajecia-programowania-xd.pl/flagi'
-
-# lista_flag = stworz_liste_flag(url)
-# shortest, longest = get_min_max(lista_flag)
-# print(shortest)
-# print(longest)
