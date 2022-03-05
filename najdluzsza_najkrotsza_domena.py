@@ -6,7 +6,7 @@ def najkrotsza_najdluzsza_domena( lista_flag):
     
     for flaga in lista_flag:
         dlugosc_flagi = len( flaga)
-        if '.' not in flaga and dlugosc_flagi == 0:
+        if '.' not in flaga and dlugosc_flagi == False:
             continue
         najkrotsza_najdluzsza.append( dlugosc_flagi)
     return najkrotsza_najdluzsza
