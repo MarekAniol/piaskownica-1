@@ -1,22 +1,18 @@
 from alfa_list import separate_data
 
 # Program which sort 1st column in a list called (Date)
-def only_date (date_list):
+def only_date(date_list):
     
+    clean_date = []
     
-    
-    return list_of_dates
-
-
+    for el in date_list:
+        
+    return el
 
 url = 'http://www.po-prostu-adam.pl/alfa'
 date_list = separate_data(url)
-
-list_of_dates = only_date(date_list)
-print(list_of_dates)
-
-
-
-
-
+el = only_date (date_list)
+# print(clean_date)
+# clean_date = only_date(date_list)
+# print(clean_date)
 

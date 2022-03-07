@@ -1,6 +1,7 @@
-import requests 
+import requests
 
 url = 'http://www.po-prostu-adam.pl/alfa'
+
 def get_alfa_list(url):
     raw_info = requests.get(url)
     text = raw_info.text
@@ -13,8 +14,20 @@ def separate_data(url):
     text_from_site = get_alfa_list(url)
     list_of_datas = text_from_site.split(',')
     
+   
+
     return list_of_datas
         
-        
-        
+
+       
 print(separate_data(url))
+       
+       
+       
+        
+    # for c in new_list:
+    #     clean.append(c.replace('\n',' '))
+    # for el in clean:
+    #     if ' ' in el:
+    #         clean.append(c.split(' '))
+    # return c
