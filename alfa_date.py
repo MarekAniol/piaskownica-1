@@ -4,12 +4,16 @@ from alfa_list import separate_data
 def only_date (date_list):
     
     
-    return
+    
+    return list_of_dates
 
 
 
 url = 'http://www.po-prostu-adam.pl/alfa'
 date_list = separate_data(url)
+
+list_of_dates = only_date(date_list)
+print(list_of_dates)
 
 
 
