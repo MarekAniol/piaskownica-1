@@ -37,3 +37,6 @@ def policz_domeny_pl(linki):
 
 wynik = policz_domeny_pl(linki)
 print(wynik)
+
+# New Code Line
+print("To dodałem:", wynik + 100)
